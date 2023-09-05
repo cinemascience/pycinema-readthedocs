@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'pycinema'
 copyright = '2023, Los Alamos National Laboratory'
 author = 'Rogers'
 
