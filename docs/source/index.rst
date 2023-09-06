@@ -1,4 +1,4 @@
-pycinema documentation
+pycinema v2.0.0 documentation
 ======================
 
 **pycinema** is an open source toolkit for reading, manipulating and viewing Cinema databases.
