@@ -28,3 +28,16 @@ Cinema:View workspace
 ---------------------
 
 The **Cinema:View** workspace provides a *parameter slider view*, a *table*, *rendering controls* and an image view. 
+
+.. image:: img/view-01.png
+   :align: center
+
+Selecting four timesteps (the rightmost axis) results in four images being displayed, and the table view of the selected components being updated.
+
+.. image:: img/view-02.png
+   :align: center
+
+Finally, selecting five `phi` values results in twenty images (4X5) being displayed, and the table view of the selected components being updated.
+
+.. image:: img/view-03.png
+   :align: center
