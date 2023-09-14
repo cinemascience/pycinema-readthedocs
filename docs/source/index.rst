@@ -13,4 +13,5 @@ Contents
 
    usage
    explorer
+   view
    api
