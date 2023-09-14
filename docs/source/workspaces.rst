@@ -1,7 +1,10 @@
-Cinema:Explorer workspace
-=====
+Cinema Workspaces
+=================
 
 .. _explorer:
+
+Cinema:Explorer workspace
+-------------------------
 
 The **Cinema:Explorer** workspace provides a *parallel coordinates view*, a *table*, *rendering controls* and an image view. The image view adjusts to show all images that are selected in the *parallel coordinates view*. Brushing and selecting on the the *parallel coordinates view* selects images that are then displayed in the image view. 
 
@@ -20,3 +23,8 @@ Finally, selecting five `phi` values results in twenty images (4X5) being displa
 .. image:: img/explorer-03.png
    :align: center
 
+
+Cinema:View workspace
+---------------------
+
+The **Cinema:View** workspace provides a *parameter slider view*, a *table*, *rendering controls* and an image view. 

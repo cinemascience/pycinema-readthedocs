@@ -12,6 +12,5 @@ Contents
 .. toctree::
 
    usage
-   explorer
-   view
+   workspaces
    api
