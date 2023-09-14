@@ -19,12 +19,18 @@ available in your shells.
 Getting Started
 ---------------
 
+The `cinema` command line tool can view databases using a set of `workspaces` included with the application. Currently, there are `view` and `explorer` workspaces, and they are called on specific databases in the following way:
 
 .. code-block:: console
-   cinema
 
-.. code-block:: console
    cinema view data/sphere.cdb
 
+.. image cinema-view-sphere.png
 
+Likewise, the `explorer` workspace can be used to view the sample database:
 
+.. code-block:: console
+
+   cinema view data/sphere.cdb
+
+.. image cinema-explorer-sphere.png
