@@ -1,5 +1,5 @@
-pycinema v2.0.0 documentation
-======================
+pycinema v2.x documentation
+===========================
 
 **pycinema** is an open source toolkit for reading, manipulating and viewing `Cinema <https://cinemascience.github.io>` databases. The module includes the `cinema` command line tool, which can be used to run the `Cinema:Theater` application. Users can use `Cinema:Theater` to build *filter graphs* that use a library of operators to load, manipulate and view data in different ways. These *filger graphs* can be saved as scripts, or adapted to be *workspaces* that can run on any input data.
 
