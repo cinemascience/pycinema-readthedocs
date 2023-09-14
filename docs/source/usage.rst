@@ -36,3 +36,5 @@ Likewise, the `explorer` workspace can be used to view the sample database:
 
 .. image:: img/cinema-explorer-sphere.png
    :align: center
+
+The main difference between the two workspaces is that `explorer` uses a parallel coordinates widget to explore metadata, while the `view` workspace uses a set of sliders.
