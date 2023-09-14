@@ -13,4 +13,5 @@ Contents
 
    usage
    workspaces
+   scripts
    api
