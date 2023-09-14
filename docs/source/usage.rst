@@ -6,29 +6,25 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use `pycinema`, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install pycinema 
 
-Creating recipes
-----------------
+This will install the pycinema module, which includes both the filter library and the `cinema` command line tool.
+The `pycinema` module will be available in normal python scripts, and the `cinema` command line tool will be
+available in your shells. 
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Getting Started
+---------------
 
-.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. code-block:: console
+   cinema
 
-.. autoexception:: lumache.InvalidKindError
+.. code-block:: console
+   cinema view data/sphere.cdb
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
