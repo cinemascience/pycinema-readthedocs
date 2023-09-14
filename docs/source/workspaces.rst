@@ -3,6 +3,9 @@ Cinema Workspaces
 
 .. _explorer:
 
+The `Cinema:Theater` application introduces the concept of `workspaces` to Cinema. A `workspace` is a defined set of filters and views that can be used to view some collection of data. Several `workspaces` are defined in the module, and can be used from either the command line or the `Cinema:Theater` application.
+
+
 Cinema:Explorer workspace
 -------------------------
 
