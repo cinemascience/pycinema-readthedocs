@@ -25,7 +25,7 @@ The `cinema` command line tool can view databases using a set of `workspaces` in
 
    cinema view data/sphere.cdb
 
-.. image cinema-view-sphere.png
+.. image img/cinema-view-sphere.png
 
 Likewise, the `explorer` workspace can be used to view the sample database:
 
@@ -33,4 +33,4 @@ Likewise, the `explorer` workspace can be used to view the sample database:
 
    cinema view data/sphere.cdb
 
-.. image cinema-explorer-sphere.png
+.. image img/cinema-explorer-sphere.png
