@@ -1,7 +1,10 @@
 pycinema v2.x documentation
 ===========================
 
-.. image:: img/python-gui.png
+.. figure:: img/python-gui.png
+
+   Screen capture of the Cinema:Explorer and Cinema:View workspaces, running under a dark desktop theme. pycinema introduces 
+   workspaces, filters, state saving and interactive filer graph construction to the Cinema toolkit. 
 
 **pycinema** is an open source toolkit for reading, manipulating and viewing `Cinema <https://cinemascience.github.io>` databases. The module includes the `cinema` command line tool, which can be used to run the `Cinema:Theater` application. Users can use `Cinema:Theater` to build *filter graphs* that use a library of operators to load, manipulate and view data in different ways. These *filger graphs* can be saved as scripts, or adapted to be *workspaces* that can run on any input data.
 
