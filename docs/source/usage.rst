@@ -16,6 +16,8 @@ This will install the pycinema module, which includes both the filter library an
 The `pycinema` module will be available in normal python scripts, and the `cinema` command line tool will be
 available in your shells. 
 
+*Example Data* Download example data referenced in this documentation `here <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v2.0.zip>`_
+
 Getting Started
 ---------------
 
