@@ -27,17 +27,9 @@ Finally, selecting five `phi` values results in twenty images (4X5) being displa
 Cinema:View workspace
 ---------------------
 
-The **Cinema:View** workspace provides a *parameter slider view*, a *table*, *rendering controls* and an image view. 
+The **Cinema:View** workspace provides a *parameter slider view*, a *table*, *rendering controls* and an image view. The workspace will show a single image, based on the values of the sliders.
 
-.. image:: img/view-01.png
+.. figure:: img/view-01.png
    :align: center
 
-Selecting four timesteps (the rightmost axis) results in four images being displayed, and the table view of the selected components being updated.
-
-.. image:: img/view-02.png
-   :align: center
-
-Finally, selecting five `phi` values results in twenty images (4X5) being displayed, and the table view of the selected components being updated.
-
-.. image:: img/view-03.png
-   :align: center
+    Screen capture of the Cinema:View workspace, showing a composite image of several isosurface values for a simulation at a single (phi, theta) value.
