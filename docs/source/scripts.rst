@@ -29,3 +29,20 @@ composite operation.
 .. image:: img/script-imageedgedetection.png
    :align: center
 
+Scripts with No GUI
+-------------------
+
+We note that `pycinema` filter graphs that do not include GUI elements can be run
+with python, and they will execute as expected, producing intermediate data 
+products, files, etc. as defined by the filters.
+
+For example, the following script reads in a Cinema database, then writes out the
+`data.csv` file as a new csv file, without requiring the GUI:
+
+
+.. code-block:: console
+
+   $ cinema examples/theater/TableWriteHeadlessExample.py
+
+
+
