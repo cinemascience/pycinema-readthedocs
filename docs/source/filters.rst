@@ -1,4 +1,15 @@
-Creating a New Filter =====================
+Pycinema Filters
+================
+
+A `pycinema` filter is a functional unit that takes a set of inputs, performs 
+some operation, and passes data through a set of outputs. The module has been 
+designed so that new filters require minimal code. The user simply defines
+the inputs and outputs and writes an `_update` method for a new filter class,
+and the framework automatically generates the UI for the filter graph, includes
+the filter in the applications, and makes the filter available to `save` operations.
+
+Creating a New Filter
+---------------------
 
 After you have pulled the git repository (), creating a new filter in
 `pycinema` and making it available in `Cinema:Theater` involves two steps. 
