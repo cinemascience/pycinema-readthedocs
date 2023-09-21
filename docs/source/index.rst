@@ -25,4 +25,4 @@ Contents
    workspaces
    theater
    scripts
-   api
+   filters
