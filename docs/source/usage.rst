@@ -16,10 +16,10 @@ This will install the pycinema module, which includes both the filter library an
 The `pycinema` module will be available in normal python scripts, and the `cinema` command line tool will be
 available in your shells. 
 
-*Example Data* Download example data referenced in this documentation `here <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v2.0.zip>`_
-
 Getting Started
 ---------------
+
+*Example Data* Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v2.0.zip>`_
 
 The `cinema` command line tool can view databases using a set of `workspaces` included with the application. Currently, there are `view` and `explorer` workspaces, and they are called on specific databases in the following way:
 
