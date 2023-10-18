@@ -34,7 +34,7 @@ Likewise, the `explorer` workspace can be used to view the sample database:
 
 .. code-block:: console
 
-   cinema view data/sphere.cdb
+   cinema explorer data/sphere.cdb
 
 .. image:: img/cinema-explorer-sphere.png
    :align: center
