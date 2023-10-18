@@ -19,7 +19,7 @@ available in your shells.
 Getting Started
 ---------------
 
-*Example Data* Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v2.0.zip>`_
+Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v2.0.zip>`_
 
 The `cinema` command line tool can view databases using a set of `workspaces` included with the application. Currently, there are `view` and `explorer` workspaces, and they are called on specific databases in the following way:
 
