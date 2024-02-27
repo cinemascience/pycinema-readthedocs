@@ -1,4 +1,4 @@
-pycinema v2.0 documentation
+pycinema v3.0 documentation
 ===========================
 
 .. figure:: img/python-gui.png
