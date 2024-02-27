@@ -1,8 +1,8 @@
-Setting up Cinema
-=================
+The pycinema Enironment
+=======================
 
-Environment
------------
+Environment Variables
+---------------------
 
 **PYCINEMA_SCRIPTS_DIR** 
 

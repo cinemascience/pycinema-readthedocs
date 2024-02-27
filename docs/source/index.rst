@@ -22,7 +22,7 @@ Contents
 .. toctree::
 
    usage
-   setup
+   environment
    workspaces
    theater
    scripts
