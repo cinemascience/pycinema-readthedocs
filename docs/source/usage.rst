@@ -21,7 +21,7 @@ Getting Started
 
 Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.0.zip>`_
 
-The `cinema` command line tool can view databases using a set of `workspaces` included with the application. Currently, there are `view` and `explorer` workspaces, and they are called on specific databases in the following way:
+The `cinema` command line tool can view databases using a set of `workspaces` included with the application. Currently, there are `view` and `explore` workspaces, and they are called on specific databases in the following way:
 
 .. code-block:: console
 
@@ -30,13 +30,13 @@ The `cinema` command line tool can view databases using a set of `workspaces` in
 .. image:: img/cinema-view-sphere.png
    :align: center
 
-Likewise, the `explorer` workspace can be used to view the sample database:
+Likewise, the `explore` workspace can be used to view the sample database:
 
 .. code-block:: console
 
-   cinema explorer data/sphere.cdb
+   cinema explore data/sphere.cdb
 
 .. image:: img/cinema-explorer-sphere.png
    :align: center
 
-The main difference between the two workspaces is that `explorer` uses a parallel coordinates widget to explore metadata, while the `view` workspace uses a set of sliders.
+The main difference between the two workspaces is that `explore` uses a parallel coordinates widget to explore metadata, while the `view` workspace uses a set of sliders.
