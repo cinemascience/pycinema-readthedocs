@@ -1,5 +1,5 @@
-The pycinema Enironment
-=======================
+The pycinema Environment
+========================
 
 Environment Variables
 ---------------------
