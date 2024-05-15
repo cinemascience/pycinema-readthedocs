@@ -3,6 +3,9 @@ Components of and application
 
 .. _windows:
 
+Windows in an Application
+-------------------------
+
 To use `pycinema`, first install it using pip:
 
 .. image:: img/URLCarExample_dataviews.png

@@ -1,6 +1,11 @@
 Building a Filter Graph
 =======================
 
+.. _building:
+
+Building
+--------
+
 One of the most powerful capabilities of `pycinema` is support for building new filter graphs, specific to a task. It's easy to 
 connect filters together, adjust views, and create visual layouts of information that help you look at complex data.
 
