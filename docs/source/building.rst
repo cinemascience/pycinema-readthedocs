@@ -3,9 +3,6 @@ Building a Filter Graph
 
 .. _building:
 
-Building
---------
-
 One of the most powerful capabilities of `pycinema` is support for building new filter graphs, specific to a task. It's easy to 
 connect filters together, adjust views, and create visual layouts of information that help you look at complex data.
 
@@ -21,7 +18,7 @@ Each filter will have places that can accept input (like a text box), and dots s
 2. Non-editable attribute value. This data, displayed in greyed out text, shows the value of the input or output, but is not editable by the user. 
 3. An input parameter, with connection dot. This parameter (named file_column, in this example), can be connected to some value (output). 
 4. An output parameter, with connection dot. This parameter (named table, in this example), can be connected to in input. 
-5. An editable parameter value. This data can be edited by the user.
+5. Editable parameter value. This data can be edited by the user.
 
 
 Building a simple filter graph
