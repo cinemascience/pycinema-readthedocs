@@ -14,7 +14,9 @@ a table shows the input data, and on the right that data is shown in a plot.
 .. image:: img/URLCarExample_dataviews.png
    :align: center
 
-The other tab shows the node graph that powers the two views.
+The other tab shows the node graph that powers the two views. The filters are connected through lines
+between input and output attributes, each of which is marked with a dot. The dot indicates the place on
+the filter where connections can be made.
 
 .. image:: img/URLCarExample_nodegraph.png
    :align: center
