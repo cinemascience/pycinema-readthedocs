@@ -29,11 +29,12 @@ composite operation.
 .. image:: img/script-imageedgedetection.png
    :align: center
 
-Scripts with No GUI
--------------------
+Scripts with No GUI (headless)
+------------------------------
 
-We note that `pycinema` filter graphs that do not include GUI elements can be run
-with python, and they will execute as expected, producing intermediate data 
+Using the `--headless` command line argument, `pycinema` filter graphs that do 
+not include GUI elements can be run
+with `cinema`, and they will execute as expected, producing intermediate data 
 products, files, etc. as defined by the filters.
 
 For example, the following script reads in a Cinema database, then writes out the
@@ -42,7 +43,7 @@ For example, the following script reads in a Cinema database, then writes out th
 
 .. code-block:: console
 
-   $ cinema examples/theater/TableWriteHeadlessExample.py
+   $ cinema --headless examples/theater/TableWriteHeadlessExample.py
 
 
 
