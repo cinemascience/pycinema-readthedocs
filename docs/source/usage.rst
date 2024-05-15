@@ -40,3 +40,29 @@ Likewise, the `explore` application can be used to view the sample database:
    :align: center
 
 The main difference between the two application is that `explore` uses a parallel coordinates widget to explore metadata, while the `view` application uses a set of sliders.
+
+Building a Filter Graph
+-----------------------
+
+One of the most powerful capabilities of `pycinema` is support for building new filter graphs, specific to a task.
+
+
+.. image:: img/build_01.png
+   :align: center
+
+.. image:: img/filter_menu.png
+   :align: center
+
+.. image:: img/build_02.png
+   :align: center
+
+.. image:: img/build_03.png
+   :align: center
+
+.. image:: img/build_04.png
+   :align: center
+
+.. image:: img/build_05.png
+   :align: center
+
+
