@@ -12,14 +12,20 @@ connect filters together, adjust views, and create visual layouts of information
 Components of a single filter UI
 --------------------------------
 
-Each filter will have places that can accept input (like a text box), and dots showing places that can be connected (either inputs or outputs. In this example, we see the inputs and outputs of a *CinemaDatabaseReader* filter:
+Each filter will have places that can accept input (like a text box), and dots showing places that can be connected (either inputs or outputs. In this example, we see the inputs and outputs of a *CinemaDatabaseReader* filter. The labels are explained below.
 
-- **table** is an output connection
-- **path** is an attribute describing the path to the database
-- **file_column** is an attribute describing the column in the Cinema database that contains the file path for the artifact.
-
-.. image:: img/build_02.png
+.. image:: img/filter_labeled.png
    :align: center
+
+1. Filter name. This is automatically generated.
+2. Non-editable attribute value. This data, displayed in greyed out text, shows the value of the input or output, but is not editable by the user. 
+3. An input parameter, with connection dot. This parameter (named file_column, in this example), can be connected to some value (output). 
+4. An output parameter, with connection dot. This parameter (named table, in this example), can be connected to in input. 
+5. An editable parameter value. This data can be edited by the user.
+
+
+Building a simple filter graph
+---
 
 .. code-block:: console
 
@@ -27,9 +33,6 @@ Each filter will have places that can accept input (like a text box), and dots s
 
 .. image:: img/build_01.png
    :align: center
-
-Building a simple filter graph
----
 
 To get started, run the cinema application from the command line, and the `Cinema:Theater` application will open and you will see 
 a blank window, which is the node layout window:
