@@ -1,5 +1,5 @@
-Usage
-=====
+Using pycinema
+==============
 
 .. _installation:
 
