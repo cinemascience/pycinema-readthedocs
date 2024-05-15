@@ -22,8 +22,8 @@ Contents
 .. toctree::
 
    usage
-   building
    urlexample
+   building
    environment
    applications
    theater
