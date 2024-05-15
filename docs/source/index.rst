@@ -22,6 +22,7 @@ Contents
 .. toctree::
 
    usage
+   building
    environment
    applications
    theater
