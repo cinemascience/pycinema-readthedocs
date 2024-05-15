@@ -16,8 +16,8 @@ This will install the pycinema module, which includes both the filter library an
 The `pycinema` module will be available in normal python scripts, and the `cinema` command line tool will be
 available in your shells. 
 
-Getting Started
----------------
+Running cinema applications
+---------------------------
 
 Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.0.zip>`_
 
