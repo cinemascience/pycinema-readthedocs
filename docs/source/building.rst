@@ -24,16 +24,15 @@ Each filter will have places that can accept input (like a text box), and dots s
 Building a simple filter graph
 ---
 
-.. code-block:: console
-
-   cinema view data/sphere.cdb
-
-.. image:: img/build_01.png
-   :align: center
-
 To get started, run the cinema application from the command line, and the `Cinema:Theater` application will open and you will see 
 a blank window, which is the node layout window:
 
+.. code-block:: console
+
+   cinema 
+
+.. image:: img/build_01.png
+   :align: center
 
 First, add a filter to read in some data. Click on the **Edit** menu item, and choose the **Add filter ...** item. The filter selection window will appear. Diuble clicking on a name in the scroll box will create a node in the canvas. 
 
