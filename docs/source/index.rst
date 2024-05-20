@@ -22,10 +22,10 @@ Contents
 .. toctree::
 
    usage
+   theater
    urlexample
    building
    environment
    applications
-   theater
    scripts
    filters
