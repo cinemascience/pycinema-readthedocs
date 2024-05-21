@@ -59,7 +59,9 @@ upper right hand corner of any window. This will split that window and present
 a panel of buttons that show the type of view that can be created. In this example,
 we choose the **Image** button, and this creates an image view that connects to the
 **ImageReader**, resulting in the application being configured as shown in the bottom
-image on this page.
+image on this page. Note that creating a data view in this way also creates a node
+in the filter graph representing the view. This node is independent of the window (view) 
+of that node, so it can be shown or not shown, but will still remain in the graph.
 
 
 .. image:: img/build_04.png
