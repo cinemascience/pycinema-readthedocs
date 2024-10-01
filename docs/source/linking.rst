@@ -1,5 +1,5 @@
-Linking Selection Across Filters and Views
-=======================
+Linking Selection (Filters and Views)
+=====================================
 
 .. _linking:
 
@@ -8,7 +8,7 @@ the same data can be viewed in different ways. For example, in the screen captur
 we see two views of a cinema database. On the left it is shown as a table, and on the
 right as a set of images.
 
-.. image:: img/nodegraph_linked.png
+.. image:: img/nodegraph_unselected.png
    :align: center
 
 Linking the selection in these two views allows the user to explor both representations
@@ -16,8 +16,7 @@ of the database at the same time. A user can click and select in either view, an
 of the way the underlying node graph is connected, the selection will appear in both 
 windows. This is shown in the screen capture below.
 
-
-.. image:: img/nodegraph_unselected.png
+.. image:: img/nodegraph_selected.png
    :align: center
 
 If we look at the Node Inspector view of the application, we can see that the input channel
@@ -28,6 +27,6 @@ other. This update happens both ways.
 This link is created/deleted in the normal manner of using the mouse to select on endpoint,
 and then drawing a line to the other channel.
 
-.. image:: img/nodegraph_selected.png
+.. image:: img/nodegraph_linked.png
    :align: center
 
