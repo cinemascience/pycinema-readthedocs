@@ -30,7 +30,8 @@ The `cinema` command line tool can view databases using a set of `application` r
 .. image:: img/cinema-view-sphere.png
    :align: center
 
-Likewise, the `explore` application can be used to view the sample database:
+Likewise, the `explore` application can be used to view the sample database, using a 
+parallel coordinates widget to help inspect the data:
 
 .. code-block:: console
 
@@ -39,5 +40,22 @@ Likewise, the `explore` application can be used to view the sample database:
 .. image:: img/cinema-explorer-sphere.png
    :align: center
 
-The main difference between the two application is that `explore` uses a parallel coordinates widget to explore metadata, while the `view` application uses a set of sliders.
+The `browse` application creates a linked table and image view:
+
+.. code-block:: console
+
+   cinema browse data/sphere.cdb
+
+.. image:: img/cinema-browse-views.png
+   :align: center
+
+The `discover` application creates a focus-plus-context view of the dataset, with 
+linked windows allowing quick inspection of details from larger datasets:
+
+.. code-block:: console
+
+   cinema browse data/sphere.cdb
+
+.. image:: img/cinema-discover-views.png
+   :align: center
 
