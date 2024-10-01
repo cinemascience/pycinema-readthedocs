@@ -30,7 +30,7 @@ and then drawing a line to the other channel.
 .. image:: img/nodegraph_linked.png
    :align: center
 
-Focusing on the selected items
+Focusing on the Selected Items
 ------------------------------
 
 Using the same mechanism, we can inspect just the selected set, by adding a view that
