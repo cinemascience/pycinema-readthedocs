@@ -54,7 +54,7 @@ linked windows allowing quick inspection of details from larger datasets:
 
 .. code-block:: console
 
-   cinema browse data/sphere.cdb
+   cinema discover data/sphere.cdb
 
 .. image:: img/cinema-discover-views.png
    :align: center
