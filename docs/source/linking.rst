@@ -35,9 +35,12 @@ Focusing on the Selected Items
 
 Using the same mechanism, we can inspect just the selected set, by adding a view that
 is linked to the output of the view showing the selection. This sends just the 
-subset of selected images to the new view, allowing a focused view of the data.
+subset of selected images to the new view, allowing a focused view of the data. Below, 
+we see a table view (1) and an image view (2) with linked selection, with a larger
+window (3) showing just the set of images that are selected. This can be an effective 
+way of showing a context and focused view of the same data.
 
-.. image:: img/application_inspect-selection.png
+.. image:: img/labeled_inspect-selection.png
    :align: center
 
 The node inspector shows how this is accomplished: with the addition of a single view:
