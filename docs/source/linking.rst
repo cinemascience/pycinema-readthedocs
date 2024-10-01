@@ -41,12 +41,12 @@ window (3) showing just the set of images that are selected. This can be an effe
 way of showing a context and focused view of the same data.
 
 .. image:: img/inspect-selected_views.png
-   :scale: 50%
+   :scale: 90%
    :align: center
 
 The node inspector shows how this is accomplished: with the addition of a single view (1),
 connected to the **images** channel of the existing image view:
 
 .. image:: img/inspect-selected_nodegraph.png
-   :scale: 50%
+   :scale: 90%
    :align: center
