@@ -40,10 +40,11 @@ we see a table view (1) and an image view (2) with linked selection, with a larg
 window (3) showing just the set of images that are selected. This can be an effective 
 way of showing a context and focused view of the same data.
 
-.. image:: img/labeled_inspect-selection.png
+.. image:: img/inspect-selected_views.png
    :align: center
 
-The node inspector shows how this is accomplished: with the addition of a single view:
+The node inspector shows how this is accomplished: with the addition of a single view (1),
+connected to the **images** channel of the existing image view:
 
-.. image:: img/nodegraph_inspect-selection.png
+.. image:: img/inspect-selected_nodegraph.png
    :align: center
