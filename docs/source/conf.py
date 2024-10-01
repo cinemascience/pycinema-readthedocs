@@ -6,8 +6,8 @@ project = 'pycinema'
 copyright = '2023, Los Alamos National Laboratory'
 author = 'Rogers'
 
-release = '0.1'
-version = '0.1.0'
+release = '3.1'
+version = '3.1.0'
 
 # -- General configuration
 
