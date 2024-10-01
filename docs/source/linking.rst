@@ -30,3 +30,17 @@ and then drawing a line to the other channel.
 .. image:: img/nodegraph_linked.png
    :align: center
 
+Focusing on the selected items
+------------------------------
+
+Using the same mechanism, we can inspect just the selected set, by adding a view that
+is linked to the output of the view showing the selection. This sends just the 
+subset of selected images to the new view, allowing a focused view of the data.
+
+.. image:: img/application_inspect-selection.png
+   :align: center
+
+The node inspector shows how this is accomplished: with the addition of a single view:
+
+.. image:: img/nodegraph_inspect-selection.png
+   :align: center
