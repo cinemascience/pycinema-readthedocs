@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'pycinema'
-copyright = '2023, Los Alamos National Laboratory'
+copyright = '2024, Los Alamos National Laboratory'
 author = 'Rogers'
 
 release = '3.1'
@@ -33,3 +33,6 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for images
+html_scaled_image_link = True
