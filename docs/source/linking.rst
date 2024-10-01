@@ -3,14 +3,30 @@ Linking Selection Across Filters and Views
 
 .. _linking:
 
+It's often useful to link selection across views and filters, so that
+the same data can be viewed in different ways. For example, in the screen capture below,
+we see two views of a cinema database. On the left it is shown as a table, and on the
+right as a set of images.
+
 .. image:: img/nodegraph_linked.png
    :align: center
 
-It's often useful to link selection across views and filters, so that
-the same data can be viewed in different ways. 
+Linking the selection in these two views allows the user to explor both representations
+of the database at the same time. A user can click and select in either view, and because
+of the way the underlying node graph is connected, the selection will appear in both 
+windows. This is shown in the screen capture below.
+
 
 .. image:: img/nodegraph_unselected.png
    :align: center
+
+If we look at the Node Inspector view of the application, we can see that the input channel
+named 'selection' in the TableView and ImageView are linked by a dotted line. This indicates
+that the channels are linked, and that changes in the value of one will be reflected in the
+other. This update happens both ways.
+
+This link is created/deleted in the normal manner of using the mouse to select on endpoint,
+and then drawing a line to the other channel.
 
 .. image:: img/nodegraph_selected.png
    :align: center
