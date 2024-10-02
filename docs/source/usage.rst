@@ -21,8 +21,8 @@ Running cinema applications
 
 Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.0.zip>`_
 
-The `cinema` command line tool can view databases using a set of *applications* released with the module. This set of
-applications includes the follow, which can be called from the command line.
+The ``cinema`` command line tool can view databases using a set of *applications* which can be called from the command
+line. See below for examples of these applications.
 
 .. code-block:: console
 
