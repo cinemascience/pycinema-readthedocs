@@ -32,3 +32,4 @@ Contents
    applications
    scripts
    filters
+   plugin
