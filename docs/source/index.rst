@@ -24,7 +24,7 @@ Contents
    usage
    theater
    urlexample
-   example
+   examples
    building
    linking
    shortcut
