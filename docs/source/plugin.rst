@@ -3,13 +3,15 @@ Exporting Cinema databases from ParaView
 
 .. _plugin:
 
-In this simple example, we have created a Cinema database export pipeline
-using the ``Cinema Export`` plugin avaiable in ParaView 5.13 and later. We 
-will go through this process in detail, but for now, we show the overall 
-ParaView application interface. Users can adjust the variables exported, the
-density and placement of camera positions, and adjust the overall visualization
-interactively in ParaView before exporting the image database. It is exported
-in Cinema's HDF5 image format.
+ParaView's 5.13 release included an advanced Cinema database exporter
+that makes it easy to create cinema databases from any scientific dataset.
+
+This example shows ParaView executing an export workflow, and displaying the
+results of the export. We will go through this process in detail, but for now,
+we show the overall ParaView application interface. Users can adjust the
+variables exported, the density and placement of camera positions, and adjust
+the overall visualization interactively in ParaView before exporting the image
+database. It is exported in Cinema's HDF5 image format.
 
 .. image:: img/sphere-export.png
    :align: center
