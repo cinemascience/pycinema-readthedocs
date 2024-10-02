@@ -51,7 +51,7 @@ The `browse` application creates a linked table and image view:
    :align: center
 
 The `discover` application creates a focus-plus-context view of the dataset, with 
-linked windows allowing quick inspection of details from larger datasets:
+view of the entire dataset (1), and a linked view of the selected data (2).
 
 .. code-block:: console
 
