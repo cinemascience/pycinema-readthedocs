@@ -58,6 +58,5 @@ linked windows allowing quick inspection of details from larger datasets:
    cinema discover data/sphere.cdb
 
 .. image:: img/labeled_cinema-discover.png
-   :width: 70%
    :align: center
 
