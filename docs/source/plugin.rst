@@ -16,7 +16,7 @@ database. It is exported in Cinema's HDF5 image format.
 .. image:: img/sphere-export.png
    :align: center
 
-Next, we can load the database into ``cinema explore``, we can investigate the
+Once it is exported, we can use ``cinema explore``, to investigate the
 database, and explore ways to recolor the images interactively.
 
 .. image:: img/sphere-explore.png
