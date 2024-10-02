@@ -26,6 +26,7 @@ Contents
    urlexample
    building
    linking
+   shortcut
    environment
    applications
    scripts
