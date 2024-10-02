@@ -13,6 +13,9 @@ variables exported, the density and placement of camera positions, and adjust
 the overall visualization interactively in ParaView before exporting the image
 database. It is exported in Cinema's HDF5 image format.
 
+You can download the ParaView state file for this example 
+here :download:`sphere.pvsm <_static/sphere.pvsm>`
+
 .. image:: img/sphere-export.png
    :align: center
 
