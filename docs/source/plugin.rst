@@ -26,8 +26,6 @@ database, and explore ways to recolor the images interactively.
    :align: center
 
 
-Filters used in Cinema Export
------------------------------
 The Cinema Export Plugin adds several filters to ParaView which help you
 create, view and export Cinema databases.
 
@@ -49,7 +47,7 @@ create, view and export Cinema databases.
 How to Assemble a Cinema Export pipeline in ParaView
 ----------------------------------------------------
 
-In this simple example, we will export a Cinema database of a sphere source. 
+Now let's use these filters to export a cinema database from ParaView.
 
 - Create a sphere source.
 
@@ -79,13 +77,13 @@ In this simple example, we will export a Cinema database of a sphere source.
 
 - Select the *CinemaImaging* filter, and add a *CinemaImageGridLayout* filter
   to it. Then select the second render view by clicking in the window, and then
-  click the *Zoom to Data* button to show all the images (see below).
+  click the ``Zoom to Data`` button to show all the images (see below).
 
 .. image:: img/plugin_allimages.png
    :align: center
 
 - To write this database to disk, select the *CinemaImaging* filter and add a
   *CinemaWriter* filter. Type a valid path *ending in .cdb* in the *Output
-  Directory* text box, then click the *Apply* button. This will write images to
-  the output directory. Then click the *Create data.csv* button. This will
-  write out the `data.csv` file in the Cinema database directory.
+  Directory* text box, then click the ``Apply`` button. This will write images to
+  the output directory. Then click the ``Create data.csv`` button. This will
+  write out the ``data.csv`` file in the Cinema database directory.
