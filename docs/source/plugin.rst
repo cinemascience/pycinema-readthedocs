@@ -47,7 +47,14 @@ create, view and export Cinema databases.
 How to Assemble a Cinema Export pipeline in ParaView
 ----------------------------------------------------
 
-Now let's use these filters to export a cinema database from ParaView.
+Now let's use these filters to export a cinema database from ParaView. First,
+make sure that the Cinema Plugin is loaded. From the menu, choose *Tools ->
+Manage Plugins...*. Find the *CinemaExport* plugin and click the arrow at the
+left side to open the pluging options. Select the plugin by clicking on the
+name, then click the ``Auto Load`` button. Next, click the ``Load Selected``
+button, then close the window.
+
+To create a Cinema export workflow:
 
 - Create a sphere source.
 
