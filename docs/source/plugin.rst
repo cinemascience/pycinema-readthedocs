@@ -25,6 +25,14 @@ database, and explore ways to recolor the images interactively.
 .. image:: img/sphere-explore.png
    :align: center
 
+Loading the Cinema Export Module
+--------------------------------
+
+To make sure that the Cinema Plugin is loaded: From the menu, choose *Tools ->
+Manage Plugins...*. Find the *CinemaExport* plugin and click the arrow at the
+left side to open the pluging options. Select the plugin by clicking on the
+name, then click the ``Auto Load`` button. Next, click the ``Load Selected``
+button, then close the window.
 
 The Cinema Export Plugin adds several filters to ParaView which help you
 create, view and export Cinema databases.
@@ -44,17 +52,11 @@ create, view and export Cinema databases.
 - **Cinema Writer** This writes out the images and *data.csv* file for a Cinema
   database.
 
+
 How to Assemble a Cinema Export pipeline in ParaView
 ----------------------------------------------------
 
-Now let's use these filters to export a cinema database from ParaView. First,
-make sure that the Cinema Plugin is loaded. From the menu, choose *Tools ->
-Manage Plugins...*. Find the *CinemaExport* plugin and click the arrow at the
-left side to open the pluging options. Select the plugin by clicking on the
-name, then click the ``Auto Load`` button. Next, click the ``Load Selected``
-button, then close the window.
-
-To create a Cinema export workflow:
+Now let's use these filters to export a cinema database from ParaView: 
 
 - Create a sphere source.
 
