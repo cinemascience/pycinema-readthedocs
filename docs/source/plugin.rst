@@ -1,5 +1,5 @@
-Exporting Cinema databases from ParaView
-========================================
+Exporting databases from ParaView
+=================================
 
 .. _plugin:
 
