@@ -24,12 +24,12 @@ Contents
    usage
    theater
    urlexample
+   workspaces
    examples
    building
    linking
    shortcut
    environment
-   applications
    scripts
    filters
    plugin

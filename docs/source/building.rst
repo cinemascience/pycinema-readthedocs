@@ -1,5 +1,5 @@
-
-=======================
+Building Applications in Cinema:Theater
+=======================================
 
 .. _building:
 
