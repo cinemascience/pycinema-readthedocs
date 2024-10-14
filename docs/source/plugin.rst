@@ -6,12 +6,17 @@ Exporting databases from ParaView
 ParaView's 5.13 release included an advanced Cinema database exporter
 that makes it easy to create cinema databases from any scientific dataset.
 
-This example shows ParaView executing an export workflow, and displaying the
-results of the export. We will go through this process in detail, but for now,
-we show the overall ParaView application interface. Users can adjust the
+This plugin exports cinema databases in the HDF5 format, which saves images of
+float values, instead of RGB images. These images can be composited and
+recolored with the pycinema toolkit. (as shown in the **composite and recolor**
+section).
+
+The example below shows ParaView executing an export workflow, and displaying
+the results of the export. We will go through this process in detail, but for
+now, we show the overall ParaView application interface. Users can adjust the
 variables exported, the density and placement of camera positions, and adjust
 the overall visualization interactively in ParaView before exporting the image
-database. It is exported in Cinema's HDF5 image format.
+database.
 
 You can download the ParaView state file for this example 
 here :download:`sphere.pvsm <_static/sphere.pvsm>`
