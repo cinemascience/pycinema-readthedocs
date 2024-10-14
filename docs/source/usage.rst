@@ -19,7 +19,7 @@ available in your shells.
 Running cinema applications
 ---------------------------
 
-Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.0.zip>`_
+Download the `example data repository. <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.1.0.zip>`_
 
 .. code-block:: console
 
