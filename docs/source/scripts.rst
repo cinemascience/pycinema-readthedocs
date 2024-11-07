@@ -1,7 +1,33 @@
 Running Cinema scripts
 ======================
 
-The `cinema` command line tool runs valid python scripts using the `pycinema`
+The `cinema` command line tool makes a host of pycinema capability available through the
+command line. The `cinema` help message shows the list of subcommands available, and a
+short description of their capabilities:
+
+.. code-block:: console
+   $ cinema --help 
+
+   usage: cinema [-h] {compose,meta,browse,discover,explore,imagegrid,view,theater} ...
+
+   Cinema command line tool
+
+   positional arguments:
+     {compose,meta,browse,discover,explore,imagegrid,view,theater}
+                           Sub-commands
+       compose             convert Cinema float (hdf5) images to .png
+       meta                dump descriptive metadata about a cinema database
+       browse              browse a cinema database
+       discover            discover a cinema database
+       explore             explore a cinema database
+       imagegrid           imagegrid a cinema database
+       view                view a cinema database
+       theater             run a cinema script in theater
+
+    options:
+      -h, --help            show this help message and exit
+
+The `cinema` command line tool runs pycinema-created python scripts using the `pycinema`
 module. These scripts can be run from the command line by providing the path to
 the script as a command line argument.
 
@@ -11,7 +37,7 @@ border are displayed side-by-side.
 
 .. code-block:: console
 
-   $ cinema examples/theater/ImageBorder.py 
+   $ cinema theater examples/theater/ImageBorder.py 
 
 
 .. image:: img/script-imageborder.png
@@ -24,7 +50,7 @@ composite operation.
 
 .. code-block:: console
 
-   $ cinema examples/theater/ImageEdgeDetection.py 
+   $ cinema theater examples/theater/ImageEdgeDetection.py 
 
 .. image:: img/script-imageedgedetection.png
    :align: center
