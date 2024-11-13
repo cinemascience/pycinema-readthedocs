@@ -73,4 +73,18 @@ For example, the following script reads in a Cinema database, then writes out th
    $ python examples/theater/TableWriteHeadlessExample.py
 
 
+Compositing HDF5 images
+-----------------------
+
+.. code-block:: console
+
+   $ cinema compose examples/scalar-images_config.yaml
+
+.. image:: img/db_noshadows.png
+   :align: center
+
+.. image:: img/db_shadows.png
+   :align: center
+
+
 
