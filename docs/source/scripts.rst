@@ -80,8 +80,14 @@ Compositing HDF5 images
 
    $ cinema compose examples/scalar-images_config.yaml
 
+Using the `GroundWater.cdb` database and basic settings, we can composite the two
+elements of the images:
+
 .. image:: img/db_noshadows.png
    :align: center
+
+Activating the ambient occlusion shadow, and providing values for the attributes
+gives the following results:
 
 .. image:: img/db_shadows.png
    :align: center
