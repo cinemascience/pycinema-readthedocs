@@ -6,6 +6,7 @@ command line. The `cinema` help message shows the list of subcommands available,
 short description of their capabilities:
 
 .. code-block:: console
+
    $ cinema --help 
 
    usage: cinema [-h] {compose,meta,browse,discover,explore,imagegrid,view,theater} ...
@@ -29,7 +30,7 @@ short description of their capabilities:
 
 The `cinema` command line tool runs pycinema-created python scripts using the `pycinema`
 module. These scripts can be run from the command line by providing the path to
-the script as a command line argument.
+the script as a single command line argument.
 
 This example script loads a Cinema database, queries for a single image, then
 applies an image border to that image. Both the original and the image with the
@@ -37,7 +38,7 @@ border are displayed side-by-side.
 
 .. code-block:: console
 
-   $ cinema theater examples/theater/ImageBorder.py 
+   $ cinema examples/theater/ImageBorder.py 
 
 
 .. image:: img/script-imageborder.png
@@ -50,7 +51,7 @@ composite operation.
 
 .. code-block:: console
 
-   $ cinema theater examples/theater/ImageEdgeDetection.py 
+   $ cinema examples/theater/ImageEdgeDetection.py 
 
 .. image:: img/script-imageedgedetection.png
    :align: center
