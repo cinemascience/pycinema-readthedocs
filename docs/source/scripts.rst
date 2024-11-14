@@ -76,15 +76,19 @@ For example, the following script reads in a Cinema database, then writes out th
 Compositing HDF5 images
 -----------------------
 
-Cinema defines an image format that can be recolored and comoposited interactively,
-providing users with a way of changing and exploring the images after they have been
-created.
+Cinema defines an image format that can be recolored and comoposited
+interactively, providing users with a way of changing and exploring the images
+after they have been created. For example, the following screen capture shows
+the results of compositing the elements in the `GroundWater.cdb` database
+(available `here <https://github.com/cinemascience/pycinema-data>`_) using a
+different colormap for one of the elements (rainbow on the left, and greens on
+the right).
+
 
 .. image:: img/db_sidebyside.png
    :align: center
 
-Using the `GroundWater.cdb` database (available `here
-<https://github.com/cinemascience/pycinema-data>`_) and basic settings, we can
+Using the `GroundWater.cdb` database and basic settings, we can
 composite images consisting of two elements - a pourous rock, and streamlines
 showing the flow of water within the rock. Each element is colored by a
 different colormap (the streamlines are gray, and the rock is rainbow):
