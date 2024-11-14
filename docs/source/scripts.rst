@@ -76,21 +76,78 @@ For example, the following script reads in a Cinema database, then writes out th
 Compositing HDF5 images
 -----------------------
 
-.. code-block:: console
+Cinema defines an image format that can be recolored and comoposited interactively,
+providing users with a way of changing and exploring the images after they have been
+created.
 
-   $ cinema compose examples/scalar-images_config.yaml
-
-Using the `GroundWater.cdb` database and basic settings, we can composite the two
-elements of the images:
-
-.. image:: img/db_noshadows.png
+.. image:: img/db_sidebyside.png
    :align: center
 
-Activating the ambient occlusion shadow, and providing values for the attributes
-gives the following results:
+Using the `GroundWater.cdb` database (available `here
+<https://github.com/cinemascience/pycinema-data>`_) and basic settings, we can
+composite images consisting of two elements - a pourous rock, and streamlines
+showing the flow of water within the rock. Each element is colored by a
+different colormap (the streamlines are gray, and the rock is rainbow):
+
+.. code-block:: console
+
+    config:
+      depthchannel: Depth
+      output: GroundWater_composited_noshadows.cdb
+
+    database:
+      path: pycinema-data/GroundWater.cdb
+      filecolumn: FILE
+      elementlabel: object_id
+
+    elements:
+      - name: '0'
+        channel: Elevation
+        channelrange: [-1.0, 1.0]
+        colormap: rainbow
+        nancolor: [0, 0, 0, 0]
+      - name: '1'
+        channel: Elevation
+        channelrange: [-1.0, 1.0]
+        colormap: gray
+        nancolor: [0, 0, 0, 0]
+
+.. image:: img/db_noshadows.png 
+   :align: center
+
+These images can be improved by activating ambient occlusion shadows and
+providing values in the configuration file. The configuration file below
+produced the following results:
+
+.. code-block:: console
+
+    config:
+      depthchannel: Depth
+      output: GroundWater_composited_noshadows.cdb
+
+    database:
+      path: pycinema-data/GroundWater.cdb
+      filecolumn: FILE
+      elementlabel: object_id
+
+    elements:
+      - name: '0'
+        channel: Elevation
+        channelrange: [-1.0, 1.0]
+        colormap: rainbow
+        nancolor: [0, 0, 0, 0]
+      - name: '1'
+        channel: Elevation
+        channelrange: [-1.0, 1.0]
+        colormap: gray
+        nancolor: [0, 0, 0, 0]
+
+    shadow:
+      state: True
+      type: SSAO
+      radius: 0.03
+      samples: 32
+      diff: 0.5
 
 .. image:: img/db_shadows.png
    :align: center
-
-
-
