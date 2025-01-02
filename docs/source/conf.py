@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'pycinema'
-copyright = '2024, Los Alamos National Laboratory'
-author = 'Rogers'
+copyright = '2024, Los Alamos National Laboratory. LA-UR-24-33372'
+author = 'David H. Rogers'
 
 release = '3.1'
 version = '3.1.0'
