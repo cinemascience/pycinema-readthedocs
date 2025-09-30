@@ -70,7 +70,7 @@ For example, the following script reads in a Cinema database, then writes out th
 
 .. code-block:: console
 
-   $ python examples/theater/TableWriteHeadlessExample.py
+   $ python examples/python/TableWriteExample.py
 
 
 Compositing HDF5 images
