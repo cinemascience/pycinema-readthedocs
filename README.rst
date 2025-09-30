@@ -15,4 +15,6 @@ To update the documentation:
 - make changes to the documentation
 - check in changes to dev branch, then submit PR and merge to main branch
 
-Documentation will automatically build and re-publish.
+Documentation will automatically build and re-publish. Be sure to check on the build,
+as requirements for readthedocs often change faster than the update cycle for this
+documentation.
