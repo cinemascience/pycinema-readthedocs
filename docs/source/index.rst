@@ -13,7 +13,7 @@ pycinema documentation
 Example Data
 ------------
 
-You can download example data referenced in this documentation `here <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.1.0.zip>`_
+You can download example data referenced in this documentation `here <https://github.com/cinemascience/pycinema-examples/archive/refs/tags/v3.2.0.zip>`_
 
 
 Contents
